@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="bound_strings">
+        <item>2000米</item>
+        <item>4000米</item>
+        <item>6000米</item>
+        <item>8000米</item>
+        <item>10000米</item>
+    </string-array>
+    
+    <integer-array name="bound_integers">
+        <item>2000</item>
+        <item>4000</item>
+        <item>6000</item>
+        <item>8000</item>
+        <item>10000</item>
+    </integer-array>
+    
+    <string-array name="type_name">
+        <item>加油站</item>
+        <item>洗车场</item>
+        <item>停车场</item>
+        <item>加气站</item>
+        <item>俱乐部</item>
+        <item>汽车维修</item>
+        <item>汽车租赁</item>
+        <item>汽车销售</item>
+    </string-array>
+    
+    <string-array name="type_query">
+        <item>汽车服务;加油站</item>
+        <item>汽车服务;洗车场</item>
+        <item>交通设施服务;停车场</item>
+        <item>加气站</item>
+        <item>汽车服务;汽车俱乐部</item>
+        <item>汽车维修</item>
+        <item>汽车服务;汽车租赁</item>
+        <item>汽车销售</item>
+    </string-array>
+    
+    <string-array name="personal">
+        <item>收藏</item>
+    </string-array>
+    
+    <string-array name="general">
+        <item>关于</item>
+        <item>退出</item>
+    </string-array>
+    
+</resources>

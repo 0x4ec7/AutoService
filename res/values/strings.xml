@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">行车助手</string>
+    <string name="locating">正在确定您的位置&#8230;</string>
+    <string name="locating_success">定位成功！</string>
+    <string name="map">地图</string>
+	<string name="list">列表</string>
+	<string name="searching">正在搜索</string>
+	<string name="within">内的</string>
+	<string name="outnumber">返回结果大于30条，显示最近的30条记录！</string>
+	<string name="no_result">没有结果！\n建议您更改搜索条件</string>
+	<string name="network_error">网络错误！</string>
+	<string name="address">地址：</string>
+	<string name="phone_number">电话：</string>
+	<string name="no_address">暂无地址信息！</string>
+	<string name="no_phone">暂无电话信息！</string>
+	<string name="no_phone_toast">该地点暂无电话信息！</string>
+	<string name="about">关于</string>
+	<string name="exit">再按一次离开行车助手！</string>
+	<string name="about_msg">&lt;center>&lt;b>行车助手&lt;/b>&lt;br/>&lt;br/>当前版本：1.0Beta&lt;br/>&lt;br/>By Team303&lt;br/>&lt;br/>北京信息科技大学&lt;br/>&lt;center></string>
+</resources>

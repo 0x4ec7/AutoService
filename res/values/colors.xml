@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF0000</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="blue">#0000FF</color>
+    <color name="gray">#808080</color>
+    <color name="menu_background">#1C1C1C</color>
+    <color name="actionbar_bg_color">#0099CC</color>
+    <color name="light_blue">#0099CC</color>
+    <color name="lightest_blue">#33B5E5</color>
+    
+</resources>

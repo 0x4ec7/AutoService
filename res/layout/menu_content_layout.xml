@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/menu_background"
+    android:orientation="vertical"
+    android:scrollbars="none" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/layout_screen"
+                android:layout_width="match_parent"
+                android:layout_height="25dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="10dip"
+                    android:text="筛选"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/list_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_screen"
+                android:background="@drawable/image_menu_item_background"
+                android:cacheColorHint="@android:color/transparent"
+                android:divider="@drawable/image_menu_item_divider"
+                android:drawSelectorOnTop="false"
+                android:listSelector="@drawable/selector_image_menu_item_background_btn" />
+
+            <LinearLayout
+                android:id="@+id/layout_personal"
+                android:layout_width="match_parent"
+                android:layout_height="25dip"
+                android:layout_below="@id/list_type"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="10dip"
+                    android:text="个人"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/list_personal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_personal"
+                android:background="@drawable/image_menu_item_background"
+                android:cacheColorHint="@android:color/transparent"
+                android:drawSelectorOnTop="false"
+                android:listSelector="@drawable/selector_image_menu_item_background_btn" />
+
+            <LinearLayout
+                android:id="@+id/layout_general"
+                android:layout_width="match_parent"
+                android:layout_height="25dip"
+                android:layout_below="@id/list_personal"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="10dip"
+                    android:text="通用"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/list_general"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_general"
+                android:background="@drawable/image_menu_item_background"
+                android:cacheColorHint="@android:color/transparent"
+                android:drawSelectorOnTop="false"
+                android:listSelector="@drawable/selector_image_menu_item_background_btn" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
